@@ -1,8 +1,12 @@
-# a = int(input("Enter your age"))
-# b = int(input("Enter your height in cm"))
+# BASIC INPUT AND OUTPUT
 
-# print(a)
-# print(b)
+a = int(input("Enter your age"))
+b = int(input("Enter your height in cm"))
+
+print(a)
+print(b)
+
+# CALCULATOR
 
 c = float(input("Enter first number "))
 d = float(input("Enter second number "))
@@ -16,3 +20,16 @@ print(add)
 print(sub)
 print(mul)
 print(div)
+
+# CM TO M
+
+cm = float(input("Enter any number"))
+
+m = cm / 100
+
+print(m)
+
+
+
+
+
